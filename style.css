@@ -1,0 +1,93 @@
+:root {
+  --primary-color: #154360;
+  --secondary-color: #1E8449;
+  --tertiary-color: #2980B9;
+  --background-color: #F1F1F1;
+  --text-color: #333;
+  --link-color: #2980B9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.navig{
+  background-color: var(--tertiary-color);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: var(--link-color);
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+  border-bottom: 1px solid var(--tertiary-color);
+  padding-bottom: 20px;
+}
+
+section h2 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+section p {
+  line-height: 1.5;
+}
+
+footer {
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+
+.ft{
+  color:#fff;
+}
+
+#page-content {
+  min-height: calc(100vh - 50px); /* 120px = alto del footer */
+}
+
+img{
+  width: 30%;
+}
